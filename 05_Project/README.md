@@ -6,10 +6,10 @@
 In this project, I implement a machine-learning model to identify the language of the given input name. The dataset contains names from various languages around the globe. I use CountVectorizer from sklearn.feature extraction.text to vectorize input names as a preprocessing step and then use the vectorized representation of the names as input to the machine learning model. For language classification, we have implemented a multinomial naive Bayes algorithm which is a popular Bayesian learning approach in Natural Language Processing. The Machine Learning algorithm has been implemented from scratch and the machine learning model guesses the tag of a text using the Bayes theorem and calculates each tag's likelihood for a given sample and outputs the tag with the highest probability.
 
 # Built with:
-- Pandas
-* numpy
-+ sklearn
-+ Multinomial Naive Bayes
+- [Pandas](https://pandas.pydata.org/)
+* [numpy](https://numpy.org/)
+* [sklearn](https://scikit-learn.org/stable/)
++ [Multinomial Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
 
 # Data Description:
 - The [Male given names by language wikipedia dataset](https://en.wiktionary.org/wiki/Category:Male_given_names_by_language) was used in this project.
